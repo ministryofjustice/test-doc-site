@@ -4,7 +4,7 @@ host: https://ministryofjustice/test-doc-site
 # Header-related options
 show_govuk_logo: true
 service_name: Test Documentation Site
-service_link: /test-doc-site
+service_link: /
 
 # Links to show on right-hand-side of header
 header_links:
