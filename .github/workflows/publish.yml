@@ -15,9 +15,6 @@ jobs:
       image: ministryofjustice/tech-docs-github-pages-publisher:test1505
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-ruby@v1
-      with:
-        ruby-version: '2.6'
     - name: Publish
       run: /publishing-scripts/publish.sh
       env:
