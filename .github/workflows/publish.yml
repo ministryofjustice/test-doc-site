@@ -12,7 +12,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     container:
-      image: ministryofjustice/tech-docs-github-pages-publisher:test1728
+      image: ministryofjustice/tech-docs-github-pages-publisher:test1804
     steps:
     - uses: actions/checkout@v2
     - name: Publish
